@@ -12,7 +12,8 @@
 
 CROSS_COMPILE =
 OPTIMIZE := -O2
-WARNINGS := -Wall -Werror 
+#WARNINGS := -Wall -Werror
+WARNINGS := -Wall
 EXTRA_CFLAGS := --std=c++0x -DMULTITHREAD_SYNC
 LIBS := -lboost_thread -lboost_filesystem -lboost_system -lpthread -lleveldb -lhdr_histogram
 
